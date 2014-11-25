@@ -1,0 +1,13 @@
+<html>
+  <head>
+    <title>Lollipop Mioto</title>
+  </head>
+  <body>
+    {% for product in products %}
+      <h1>{{ product.name }}</h1>
+      <h2>{{ product.price }}</h2>
+      <p>{{ product.description }}</p>
+      <hr>
+    {% endfor %}
+  </body>
+</html>
